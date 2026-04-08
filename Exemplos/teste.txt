@@ -1,0 +1,5 @@
+O valor resultante da operação foi: 200
+O valor resultante da operação foi: -18
+O valor resultante da operação foi: 0.5
+O valor resultante da operação foi: 82
+O valor resultante da operação foi: 30
