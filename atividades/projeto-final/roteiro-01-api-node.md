@@ -91,6 +91,9 @@ No arquivo `package.json` gerado, adicione a chave `"type": "module"` (ou altere
   },
   "dependencies": {
     "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
 ```
