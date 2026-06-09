@@ -100,8 +100,6 @@ No arquivo `package.json` gerado, adicione a chave `"type": "module"` (ou altere
 
 > **Por que isso importa:** sem `"type": "module"`, o Node.js interpreta `.js` como CJS por padrão. Com essa chave, `import`/`export` funcionam nativamente.
 
-Agora execute `npm run dev` para iniciar o servidor em modo de desenvolvimento. Ele irá reiniciar automaticamente sempre que você salvar mudanças no código.
-
 ---
 
 ### 2. Estrutura inicial do Servidor
@@ -129,9 +127,11 @@ app.listen(PORT, () => {
 
 **Teste**
 
-1. Caso ainda não tenha iniciado o servidor, execute `npm run dev`.
+1. Execute `npm run dev` para iniciar o servidor em modo de desenvolvimento.
 2. Abra o navegador ou use uma ferramenta como Postman para acessar `http://localhost:3000/`.
 3. Você deve ver a resposta JSON: `{"message":"InfoCom API no ar 🚀"}`.
+
+> Com o nodemon, qualquer alteração no código irá reiniciar o servidor automaticamente, facilitando o desenvolvimento. Ou seja, você não precisa executar `npm run dev` novamente após cada mudança.
 
 ---
 
