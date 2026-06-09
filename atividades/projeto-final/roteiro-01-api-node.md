@@ -77,7 +77,7 @@ npm install -D nodemon
 
 > **Dependências utilizadas:** `express`, para criar a API de forma simples, e `nodemon`, para reinicializar o servidor automaticamente durante o desenvolvimento.
 
-No arquivo `package.json` gerado, adicione a chave `"type": "module"` e configure os scripts para iniciar o servidor em modo normal e de desenvolvimento:
+No arquivo `package.json` gerado, adicione a chave `"type": "module"` (ou altere o valor existente para `"module"`) e configure os scripts para iniciar o servidor em modo normal e de desenvolvimento:
 
 ```json
 {
