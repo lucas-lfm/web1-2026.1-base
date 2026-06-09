@@ -132,6 +132,20 @@ app.listen(PORT, () => {
 
 ---
 
+### 3. Arquivo .gitignore
+
+Crie um arquivo `.gitignore` na raiz do projeto com o seguinte conteúdo para evitar que arquivos desnecessários sejam versionados:
+
+```gitignore
+node_modules/
+dist/
+.env
+```
+
+> **Por que isso é importante?** O diretório `node_modules` pode ser reconstruído a partir do `package.json`, e arquivos de ambiente (`.env`) podem conter informações sensíveis. Ignorar esses arquivos mantém o repositório limpo e seguro.
+
+---
+
 ## 2️⃣ Etapa 2: Criando o "Banco de Dados" com JSON
 
 > **🎯 Objetivo:**
