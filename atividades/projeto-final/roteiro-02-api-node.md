@@ -559,10 +559,5 @@ Na próxima entrega iremos evoluir ainda mais a API implementando:
 - Atualização parcial com PATCH.
 - Busca por categoria.
 - Busca por título.
-- Filtros combinados.
-- Paginação de resultados.
-- Validações mais robustas.
-- Middleware para tratamento centralizado de erros.
-- Documentação da API.
-
-Ao final dessas etapas, sua aplicação estará muito próxima de uma API REST utilizada em ambientes reais de produção.
+- Migração para banco de dados relacional (PostgreSQL).
+- Hospedagem da API em um serviço de nuvem.
