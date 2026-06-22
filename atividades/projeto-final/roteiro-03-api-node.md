@@ -591,10 +591,7 @@ Na próxima entrega iremos evoluir a aplicação implementando:
 
 * Migração da persistência em arquivo JSON para PostgreSQL.
 * Integração da API com banco de dados relacional.
-* Utilização de SQL para consultas e manipulação de dados.
-* Organização da camada de acesso a dados.
 * Hospedagem da API em um serviço de nuvem.
-* Disponibilização pública dos endpoints.
 * Testes da API em ambiente de produção.
 
 Ao final da Entrega 4, sua aplicação deixará de utilizar arquivos JSON como mecanismo de persistência e passará a operar utilizando um banco de dados relacional real.
